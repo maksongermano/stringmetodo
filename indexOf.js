@@ -9,7 +9,7 @@
 const possivelEmail = 'Maksongermano@gmail.com';
 
 const indexArrroba = possivelEmail.indexOf('@');
-const indexPontoAposArroba = possivelEmail.indexOf('.', indexArrroba);
+const indexPontoAposArroba = possivelEmail.indexOf('.', indexArrroba);// perceba que esse exemple tem uma virgula e outro elemento após, quer dizer que eu quero que ele procure o indice após o que eu coloquei ai.
 
 if (indexPontoAposArroba > indexArrroba) {
     console.log("E-mail atende as requisições")
